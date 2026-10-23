@@ -17,7 +17,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sukem_tech_lab">
       <ScrollToTop />
       <Navbar />
       <AIChatbot />
